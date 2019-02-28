@@ -1,6 +1,6 @@
 {
   "name": "@ima-worldhealth/dhis2-crawler",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A crawler for a dhis2 instance to pull data from the site.",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,8 @@
     "eslint": "^5.14.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
