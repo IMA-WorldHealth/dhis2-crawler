@@ -35,9 +35,12 @@ class DHIS2Crawler {
   async downloadDashboardComponents(dashboards, options = {}) {
     const boards = [].concat(dashboards);
 
-    const files = await Promise.all(
-      boards.map(name => processDashboard(this.crawler, name, options)),
-    );
+    const files = [];
+    // eslint-disable-next-line
+    for (const board of boards) {
+      // eslint-disable-next-line
+      files.push(await processDashboard(this.crawler, board.name, options));
+    }
 
     return files;
   }
