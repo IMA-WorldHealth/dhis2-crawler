@@ -40,7 +40,7 @@ class DHIS2Crawler {
     // eslint-disable-next-line
     for (const board of boards) {
       // eslint-disable-next-line
-      files.push(await processDashboard(this.crawler, board.name, options));
+      files.push(await processDashboard(this.crawler, board, options));
     }
 
     return files;
