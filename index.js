@@ -1,7 +1,7 @@
 const Crawler = require('./lib/crawler');
 
 async function processDashboard(crawler, name, opts) {
-  await crawler.goToDashboardByName(name);
+  await crawler.goToDashboardByName(name, opts.delay);
   const result = {};
 
   if (!opts.skipGraphs) {
@@ -24,6 +24,7 @@ class DHIS2Crawler {
 
   startup(options) {
     this.crawler = new Crawler(options);
+    this.on = this.crawler.on.bind(this.crawler);
     return this.crawler.initialize();
   }
 
