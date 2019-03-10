@@ -2,7 +2,9 @@ const Crawler = require('./lib/crawler');
 
 async function processDashboard(crawler, name, opts) {
   await crawler.goToDashboardByName(name, opts.delay);
-  const result = {};
+  const result = {
+    title: name,
+  };
 
   if (!opts.skipGraphs) {
     const graphs = await crawler.gatherSvgsFromDashboard();
