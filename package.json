@@ -4,7 +4,8 @@
   "description": "A crawler for a dhis2 instance to pull data from the site.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it --disable-metrics"
   },
   "keywords": [
     "dhis2",
@@ -15,15 +16,16 @@
   "dependencies": {
     "debug": "^4.1.1",
     "delay": "^4.1.0",
-    "html2canvas": "^1.0.0-alpha.12",
+    "html2canvas": "^1.0.0-rc.5",
     "puppeteer-core": "^1.12.2",
     "save-svg-as-png": "^1.4.11",
-    "tempy": "^0.2.1"
+    "tempy": "^0.3.0"
   },
   "devDependencies": {
-    "eslint": "^5.14.1",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0"
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "release-it": "^12.4.3"
   },
   "publishConfig": {
     "access": "public"
