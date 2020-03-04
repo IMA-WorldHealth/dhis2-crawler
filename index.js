@@ -51,6 +51,10 @@ class DHIS2Crawler {
   shutdown() {
     return this.crawler.destroy();
   }
+
+  panic() {
+    return this.crawler.destroy(true);
+  }
 }
 
 module.exports = DHIS2Crawler;
