@@ -49,12 +49,10 @@ class DHIS2Crawler {
   }
 
   shutdown() {
-    this.crawler.removeAllListeners();
     return this.crawler.destroy();
   }
 
   panic() {
-    this.crawler.removeAllListeners();
     return this.crawler.destroy(true);
   }
 }

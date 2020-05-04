@@ -4,7 +4,7 @@
   "description": "A crawler for a dhis2 instance to pull data from the site.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ava",
     "release": "release-it --disable-metrics"
   },
   "keywords": [
@@ -22,8 +22,10 @@
     "tempy": "^0.5.0"
   },
   "devDependencies": {
-    "eslint": "^6.0.1",
+    "ava": "^3.8.1",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-ava": "^10.3.0",
     "eslint-plugin-import": "^2.16.0",
     "release-it": "^13.0.0"
   },
