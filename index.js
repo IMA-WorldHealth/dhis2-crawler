@@ -1,9 +1,9 @@
 const Crawler = require('./lib/crawler');
 
-async function processDashboard(crawler, name, opts) {
-  await crawler.goToDashboardByName(name, opts.delay);
+async function processDashboard(crawler, dashboard, opts) {
+  await crawler.goToDashboardById(dashboard.id, opts.delay);
   const result = {
-    title: name,
+    title: dashboard.name,
   };
 
   if (!opts.skipGraphs) {
@@ -35,10 +35,10 @@ class DHIS2Crawler {
     return this.crawler.login(this.url);
   }
 
+  // note: dashboards are objects of form [{ name, id }]
   async downloadDashboardComponents(dashboards, options = {}) {
-    const boards = [].concat(dashboards);
-
     const files = [];
+
     // eslint-disable-next-line
     for (const board of boards) {
       // eslint-disable-next-line
