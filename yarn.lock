@@ -2898,9 +2898,9 @@ pupa@^2.0.1:
     escape-goat "^2.0.0"
 
 puppeteer-autoscroll-down@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/puppeteer-autoscroll-down/-/puppeteer-autoscroll-down-0.1.5.tgz#53ea0d34eb906b958dd965c10438f6bc480cf63b"
-  integrity sha512-37fA1rtHgQR7m3j1aGbqX+FwBar6ybY+I+BiKO6oA5vB/jhtl1BmM5Ub8M1htoFXxNmYBIwKQ0rQ8lxIThHzCg==
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/puppeteer-autoscroll-down/-/puppeteer-autoscroll-down-0.1.6.tgz#db5388ac3c14c9079a63c221265b05b306266e88"
+  integrity sha512-U/hJ5CnVikfq682LmGrUB7Q3ext6oJbVvOfTPay1Uq4AhvaHfA1Q2bf4UE0DT5QgaHrk/EeEZPeDwBHgjw7ZqQ==
 
 puppeteer-core@^5.0.0:
   version "5.2.1"
