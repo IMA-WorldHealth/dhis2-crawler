@@ -19,7 +19,7 @@
     "puppeteer-autoscroll-down": "^0.1.5",
     "puppeteer-core": "^5.0.0",
     "save-svg-as-png": "^1.4.11",
-    "tempy": "^0.7.0"
+    "tempy": "^1.0.0"
   },
   "devDependencies": {
     "ava": "^3.8.1",
