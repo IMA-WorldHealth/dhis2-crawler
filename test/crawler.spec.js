@@ -1,6 +1,8 @@
 const test = require('ava');
 
+const crawler = require('..');
+
 test('pass', t => {
-  t.pass();
+  t.is(typeof crawler, 'function')
 });
 
