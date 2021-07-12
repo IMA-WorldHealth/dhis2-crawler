@@ -1717,9 +1717,9 @@ hosted-git-info@^2.1.4:
   integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 html2canvas@^1.0.0-rc.5:
-  version "1.0.0-rc.7"
-  resolved "https://registry.npmjs.org/html2canvas/-/html2canvas-1.0.0-rc.7.tgz#70c159ce0e63954a91169531894d08ad5627ac98"
-  integrity sha512-yvPNZGejB2KOyKleZspjK/NruXVQuowu8NnV2HYG7gW7ytzl+umffbtUI62v2dCHQLDdsK6HIDtyJZ0W3neerA==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/html2canvas/-/html2canvas-1.1.0.tgz#bd6ea55095a09d17ba1fcc579bbae31fe1dc5b1c"
+  integrity sha512-lsZVUUcgX71b0ZI1+beqyPI/6oyitqLla3ONHqErp+zv10iIHRuADp00qTmWcDPgmNy/qgcoDU+8hkPqP2cDvQ==
   dependencies:
     css-line-break "1.1.1"
 
