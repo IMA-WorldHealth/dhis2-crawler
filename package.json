@@ -17,7 +17,7 @@
     "debug": "^4.1.1",
     "html2canvas": "^1.1.2",
     "puppeteer-autoscroll-down": "^0.1.5",
-    "puppeteer-core": "^10.0.0",
+    "puppeteer-core": "^11.0.0",
     "save-svg-as-png": "^1.4.11",
     "tempy": "^1.0.0"
   },
