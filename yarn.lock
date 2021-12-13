@@ -2872,10 +2872,10 @@ puppeteer-autoscroll-down@^1.0.0:
   resolved "https://registry.yarnpkg.com/puppeteer-autoscroll-down/-/puppeteer-autoscroll-down-1.0.0.tgz#fc8b5d2ab75f0923015266b27ad32f4bf43fac8d"
   integrity sha512-ONCie43w1FQ//+xSKK90WJIKDZ0oRM1++3zGOQOiI3BukbyBwHENAyz+jQ7UWOy0gQMZeHRctcDd1ke76LnxuA==
 
-puppeteer-core@^12.0.0:
-  version "12.0.1"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-12.0.1.tgz#b647ef14e0118537f0843b56a82a32d73ba528b0"
-  integrity sha512-lty/1LQkl9zkMuQGwipHEBU8VD1m+SEWXG7zpdwzKet8P6L3taBNOt6Y1LpptakVejKz8TqMSjaWcEjqEKPfjw==
+puppeteer-core@^13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-13.0.0.tgz#5a8307ca16a7ee325ec5d6e41bd89895951a0ea9"
+  integrity sha512-JJvGCuUNpONaFK/1tizyVthfqkEaiTCteL9HkdxN3//P9cVa+YnehlKIoJCStiKRaa3CjRu/dIJftA5XJ2EGrQ==
   dependencies:
     debug "4.3.2"
     devtools-protocol "0.0.937139"
