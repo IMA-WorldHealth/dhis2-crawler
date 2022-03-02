@@ -2854,9 +2854,9 @@ puppeteer-autoscroll-down@^1.0.0:
   integrity sha512-5obDj2uP03Y/Vr7sd5ViSHi6AoiIxP92kM4Y0HdXjDR9wrcJjTnTubbl0y+cWV5jZ9FCQwdTjJEJFSftiIqtfQ==
 
 puppeteer-core@^13.0.0:
-  version "13.4.0"
-  resolved "https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-13.4.0.tgz#e44945f3da6f267fb165bf42df25d2e3313d3250"
-  integrity sha512-TcGT5Qgq9tgI0msFrIhq70N1+WrnGowjn0hc4vtzEIizJETXOZVrQZVWy051lO/nxEVGyqRXHwtpWjv4/fRbUw==
+  version "13.4.1"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-13.4.1.tgz#623c8adb13b199f0873188cd6e99105f9bd3646c"
+  integrity sha512-AgRIWgIkUXXnbvoRhyveZnyoEYr3wTunSk2/evOfWvFs65GUzsrxnUTUSLgPM4MRshCQmRABW7qE1hDN1AD7nA==
   dependencies:
     cross-fetch "3.1.5"
     debug "4.3.3"
