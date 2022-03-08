@@ -990,10 +990,10 @@ deprecation@^2.0.0, deprecation@^2.3.1:
   resolved "https://registry.npmjs.org/deprecation/-/deprecation-2.3.1.tgz#6368cbdb40abf3373b525ac87e4a260c3a700919"
   integrity sha512-xmHIy4F3scKVwMsQ4WnVaS8bHOx0DmVwRywosKhaILI0ywMDWPtBSku2HNxRvF7jtwDRsoEwYQSfbxj8b7RlJQ==
 
-devtools-protocol@0.0.960912:
-  version "0.0.960912"
-  resolved "https://registry.npmjs.org/devtools-protocol/-/devtools-protocol-0.0.960912.tgz#411c1fa355eddb72f06c4a8743f2808766db6245"
-  integrity sha512-I3hWmV9rWHbdnUdmMKHF2NuYutIM2kXz2mdXW8ha7TbRlGTVs+PF+PsB5QWvpCek4Fy9B+msiispCfwlhG5Sqg==
+devtools-protocol@0.0.969999:
+  version "0.0.969999"
+  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.969999.tgz#3d6be0a126b3607bb399ae2719b471dda71f3478"
+  integrity sha512-6GfzuDWU0OFAuOvBokXpXPLxjOJ5DZ157Ue3sGQQM3LgAamb8m0R0ruSfN0DDu+XG5XJgT50i6zZ/0o8RglreQ==
 
 dir-glob@^3.0.1:
   version "3.0.1"
@@ -2854,13 +2854,13 @@ puppeteer-autoscroll-down@^1.0.0:
   integrity sha512-5obDj2uP03Y/Vr7sd5ViSHi6AoiIxP92kM4Y0HdXjDR9wrcJjTnTubbl0y+cWV5jZ9FCQwdTjJEJFSftiIqtfQ==
 
 puppeteer-core@^13.0.0:
-  version "13.4.1"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-13.4.1.tgz#623c8adb13b199f0873188cd6e99105f9bd3646c"
-  integrity sha512-AgRIWgIkUXXnbvoRhyveZnyoEYr3wTunSk2/evOfWvFs65GUzsrxnUTUSLgPM4MRshCQmRABW7qE1hDN1AD7nA==
+  version "13.5.0"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-13.5.0.tgz#853bc064f8f9f4d09aedcae1612fbfed35cc4ee5"
+  integrity sha512-jBHWru2UmB4NV+kbbWc52O3PCS8PGwYTcqPN4RobfZDmuAwaW4JN4R5ntMqlw1OLp4bmm07UuhR9lQXAdtXT1w==
   dependencies:
     cross-fetch "3.1.5"
     debug "4.3.3"
-    devtools-protocol "0.0.960912"
+    devtools-protocol "0.0.969999"
     extract-zip "2.0.1"
     https-proxy-agent "5.0.0"
     pkg-dir "4.2.0"
