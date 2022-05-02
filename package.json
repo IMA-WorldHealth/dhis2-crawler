@@ -27,7 +27,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-ava": "^13.0.0",
     "eslint-plugin-import": "^2.16.0",
-    "release-it": "^14.0.1"
+    "release-it": "^15.0.0"
   },
   "publishConfig": {
     "access": "public"
